@@ -7,6 +7,9 @@ Read This
 * For instructions on installing a local copy of concrete5, see the [Installation Guide](http://www.concrete5.org/documentation/developers/5.7/installation).
 * We receive many reports from researchers who do not read these rules. To prove that you've read and understood these rules, please include the word "crayons" somewhere in your report. If you do not, your report will be closed as invalid automatically.
 
+
+***These last 3 awesome rules have been copied almost verbatim from [Phabricator's hackerone account,](https:////hackerone.com/phabricator) if you have extra time to give, that's a great place to give it!***
+
 Requirements
 ============ 
 
@@ -36,5 +39,3 @@ Response
 * We will fix ___severe___ security issues within 48 hours of confirming them, all other issues will be fixed within a reasonable timeline as determined after triage.
 * We've got swag and honor for those who submit issues, but no cash. Type of swag will be determined on a case to case basis.
 
-
-(Big thanks to Phabricator for help with this glorious wall of text)

@@ -37,4 +37,4 @@ Response
 * We've got swag and honor for those who submit issues, but no cash. Type of swag will be determined on a case to case basis.
 
 
-(Big thanks to Phabricator for help with this glorious wall of text)
+These awesome rules have basically been copied almost verbatim from [Phabricator's hackerone account.](https:////hackerone.com/phabricator) If you have time, check them out!

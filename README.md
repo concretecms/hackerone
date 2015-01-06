@@ -2,8 +2,8 @@ concrete5 is a powerful CMS built around the idea of in-context editing. It's a 
 
 Read This
 =========
-* IMPORTANT: DO NOT TEST concrete5.org. Do not test an install of concrete5 that you do not own. This includes concrete5.org and any other existing install you might find. If you report an issue against concrete5.org or another install you do not own, it will not be accepted. Instead, install a local copy of concrete5. This will let you test concrete5 without disrupting other users.
-* IMPORTANT: SERVER CONFIGURATION ISSUES DO NOT QUALIFY. Do not report configuration issues with concrete5.org, portlandlabs.com, etc. For example: software versions, SPF headers, etc. These are outside of program scope. The goal of this program is to find vulnerabilities in the concrete5 CMS software itself.
+* __IMPORTANT: DO NOT TEST concrete5.org.__ Do not test an install of concrete5 that you do not own. This includes concrete5.org and any other existing install you might find. If you report an issue against concrete5.org or another install you do not own, it will not be accepted. Instead, install a local copy of concrete5. This will let you test concrete5 without disrupting other users.
+* __IMPORTANT: SERVER CONFIGURATION ISSUES DO NOT QUALIFY.__ Do not report configuration issues with concrete5.org, portlandlabs.com, etc. For example: software versions, SPF headers, etc. These are outside of program scope. The goal of this program is to find vulnerabilities in the concrete5 CMS software itself.
 * For instructions on installing a local copy of concrete5, see the [Installation Guide](http://www.concrete5.org/documentation/developers/5.7/installation).
 * We receive many reports from researchers who do not read these rules. To prove that you've read and understood these rules, please include the word "crayons" somewhere in your report. If you do not, your report will be closed as invalid.
 
@@ -23,11 +23,11 @@ they lead to severe/critical issues (below)
 
 Levels of Severity
 ======
-* A severe issue. Someone with no access can get editor/admin access to a concrete5 site when they should not. This is a huge deal and we will be all over it.
-* A critical issue. Someone with no access can do something that might impact someone who does have access. (IE: SQL injection from a form anyone can get at)
-* A medium issue. Someone who already has editor/admin access can do something they shouldn't. Typically it's SQL injection or cross site scripting vulnerabilities but they require you already 
+* __A severe issue__. Someone with no access can get editor/admin access to a concrete5 site when they should not. This is a huge deal and we will be all over it.
+* __A critical issue.__ Someone with no access can do something that might impact someone who does have access. (IE: SQL injection from a form anyone can get at)
+* __A medium issue.__ Someone who already has editor/admin access can do something they shouldn't. Typically it's SQL injection or cross site scripting vulnerabilities but they require you already 
 to have access to the dashboard. Being able to get a level of access greater than what you are supposed to have would likely graduate a vulnerability into a critical or severe issue in our eyes.
-* A minor issue. Something that's less than ideal, but can't be used to do anything nefarious today. Things that only impact the browsing experience of the person attacking likely fall into this 
+* __A minor issue.__ Something that's less than ideal, but can't be used to do anything nefarious today. Things that only impact the browsing experience of the person attacking likely fall into this 
 category.
 
 Response
@@ -35,3 +35,6 @@ Response
 * We will respond to most reports within 48 hours.
 * We will fix ___severe___ security issues within 48 hours of confirming them, all other issues will be fixed within a reasonable timeline as determined after triage.
 * We've got swag and honor for those who submit issues, but no cash. Type of swag will be determined on a case to case basis.
+
+
+(Big thanks to Phabricator for help with this glorious wall of text)

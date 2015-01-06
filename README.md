@@ -2,10 +2,10 @@ concrete5 is a powerful CMS built around the idea of in-context editing. It's a 
 
 Read This
 =========
-* __IMPORTANT: DO NOT TEST concrete5.org.__ Do not test an install of concrete5 that you do not own. This includes concrete5.org and any other existing install you might find. If you report an issue against concrete5.org or another install you do not own, it will not be accepted. Instead, install a local copy of concrete5. This will let you test concrete5 without disrupting other users.
-* __IMPORTANT: SERVER CONFIGURATION ISSUES DO NOT QUALIFY.__ Do not report configuration issues with concrete5.org, portlandlabs.com, etc. For example: software versions, SPF headers, etc. These are outside of program scope. The goal of this program is to find vulnerabilities in the concrete5 CMS software itself.
+* __IMPORTANT: DO NOT TEST `concrete5.org`.__ Do not test an install of concrete5 that you do not own. This includes `concrete5.org` and any other existing install you might find. If you report an issue against `concrete5.org` or another install you do not own, it will not be accepted. Instead, install a local copy of concrete5. This will let you test concrete5 without disrupting other users.
+* __IMPORTANT: SERVER CONFIGURATION ISSUES DO NOT QUALIFY.__ Do not report configuration issues with `concrete5.org`, `portlandlabs.com`, etc. For example: software versions, SPF headers, etc. These are outside of program scope. The goal of this program is to find vulnerabilities in the concrete5 CMS software itself.
 * For instructions on installing a local copy of concrete5, see the [Installation Guide](http://www.concrete5.org/documentation/developers/5.7/installation).
-* We receive many reports from researchers who do not read these rules. To prove that you've read and understood these rules, please include the word "crayons" somewhere in your report. If you do not, your report will be closed as invalid.
+* We receive many reports from researchers who do not read these rules. To prove that you've read and understood these rules, please include the word "crayons" somewhere in your report. If you do not, your report will be closed as invalid automatically.
 
 Requirements
 ============ 
@@ -37,4 +37,4 @@ Response
 * We've got swag and honor for those who submit issues, but no cash. Type of swag will be determined on a case to case basis.
 
 
-These awesome rules have basically been copied almost verbatim from [Phabricator's hackerone account.](https:////hackerone.com/phabricator) If you have time, check them out!
+(Big thanks to Phabricator for help with this glorious wall of text)
